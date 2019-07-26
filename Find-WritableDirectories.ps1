@@ -12,6 +12,7 @@ function Find-WritableDirectories {
     
         try {
             [System.IO.File]::WriteAllText($tmp, "test") | Out-Null
+            Remove-Item -Path $tmp
             Write-Host $dir.FullName
         } catch { }
     }
