@@ -9,7 +9,7 @@ Try {
 }
 
 
-$pes = Get-ChildItem C:\*.exe -Recurse -ErrorAction SilentlyContinue -WarningAction SilentlyContinue | Get-PE
+$pes = Get-ChildItem C:\*.exe -Recurse -ErrorAction SilentlyContinue -WarningAction SilentlyContinue | Get-PE -ErrorAction SilentlyContinue -WarningAction SilentlyContinue
 Foreach ($pe in $pes) {
     $imports = ($pe.Imports | select ModuleName | Get-Unique -AsString).ModuleName
     Foreach ($module in $imports) {
