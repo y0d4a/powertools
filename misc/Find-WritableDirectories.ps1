@@ -3,6 +3,9 @@ function Find-WritableDirectories {
         [parameter(Mandatory=$true)]
         [string]$Location
     )
+    
+    Write-Host "[*] Paul Laîné (@am0nsec)"
+    Write-Host "[*] List writable directories`n"
 
     $directories = Get-ChildItem -Directory -Path $Location
 
