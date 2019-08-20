@@ -59,8 +59,10 @@ function Install-AssemblyIntoGAC {
     # Move the DLL into the created folder
     Copy-Item -Path $Location -Destination $firstPath
     Copy-Item -Path $Location -Destination $secondPath
-
+    
+    $asm = "$assembyName, Version=$version, Culture=$culture, PublicKeyToken=$publickey" 
     Write-Host "[*] COMPLUS_Version="$runtimeVersion
-    Write-Host "[*] APPDOMAIN_MANAGER_ASM="$information
+    Write-Host "[*] APPDOMAIN_MANAGER_ASM="$asm
     Write-Host "[*] APPDOMAIN_MANAGER_TYPE="$exportedType
+
 }
