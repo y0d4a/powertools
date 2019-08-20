@@ -1,3 +1,23 @@
+<#
+.SYNOPSIS
+    This function list all writable folders in a given location
+
+    Author: Paul Laîné (@am0nsec)
+    License: None 
+    Required Dependencies: None
+    Optional Dependencies: None
+
+.PARAMETER Location
+    The location to probe
+    
+.EXAMPLE
+    Find-WritableDirectories
+    This shows the list of all writable folders for a given location
+
+.OUTPUTS
+    None
+    No return value
+#>
 function Find-WritableDirectories {
      Param(
         [parameter(Mandatory=$true)]
