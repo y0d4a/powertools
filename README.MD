@@ -1,1 +1,1 @@
-# Offensive PowerShell Tradecraft #
+Offensive PowerShell Tradecraft
