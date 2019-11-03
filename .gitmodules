@@ -17,3 +17,36 @@
 [submodule "recon/SpoolerScanner"]
 	path = recon/SpoolerScanner
 	url = https://github.com/vletoux/SpoolerScanner.git
+[submodule "credentials/CredNinja"]
+	path = credentials/CredNinja
+	url = https://github.com/Raikia/CredNinja.git
+[submodule "credentials/SessionGopher"]
+	path = credentials/SessionGopher
+	url = https://github.com/Arvanaghi/SessionGopher.git
+[submodule "recon/ADAPE-Script"]
+	path = recon/ADAPE-Script
+	url = https://github.com/hausec/ADAPE-Script.git
+[submodule "persistence/DAMP"]
+	path = persistence/DAMP
+	url = https://github.com/HarmJ0y/DAMP.git
+[submodule "exploitation/Exchange-AD-Privesc"]
+	path = exploitation/Exchange-AD-Privesc
+	url = https://github.com/gdedrouas/Exchange-AD-Privesc.git
+[submodule "PowerShell-Suite"]
+	path = PowerShell-Suite
+	url = https://github.com/FuzzySecurity/PowerShell-Suite.git
+[submodule "recon/GoFetch"]
+	path = recon/GoFetch
+	url = https://github.com/GoFetchAD/GoFetch.git
+[submodule "PowerUpSQL"]
+	path = PowerUpSQL
+	url = https://github.com/NetSPI/PowerUpSQL.git
+[submodule "nishang"]
+	path = nishang
+	url = https://github.com/samratashok/nishang.git
+[submodule "evasion/Invoke-Phant0m"]
+	path = evasion/Invoke-Phant0m
+	url = https://github.com/hlldz/Invoke-Phant0m.git
+[submodule "recon/Egress-Assess"]
+	path = recon/Egress-Assess
+	url = https://github.com/FortyNorthSecurity/Egress-Assess.git
