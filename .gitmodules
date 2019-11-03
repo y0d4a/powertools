@@ -46,3 +46,7 @@
 [submodule "recon/Egress-Assess"]
 	path = recon/Egress-Assess
 	url = https://github.com/FortyNorthSecurity/Egress-Assess.git
+[submodule "PowerSploit"]
+	path = PowerSploit
+	url = https://github.com/PowerShellMafia/PowerSploit.git
+	branch = dev
