@@ -1,0 +1,19 @@
+[submodule "PowerSploit"]
+	path = PowerSploit
+	url = https://github.com/PowerShellMafia/PowerSploit.git
+	branch = dev
+[submodule "recon/MailSniper"]
+	path = recon/MailSniper
+	url = https://github.com/dafthack/MailSniper.git
+[submodule "recon/ADRecon"]
+	path = recon/ADRecon
+	url = https://github.com/sense-of-security/ADRecon.git
+[submodule "recon/ADACLScanner"]
+	path = recon/ADACLScanner
+	url = https://github.com/canix1/ADACLScanner.git
+[submodule "recon/BloodHound"]
+	path = recon/BloodHound
+	url = https://github.com/BloodHoundAD/BloodHound.git
+[submodule "recon/SpoolerScanner"]
+	path = recon/SpoolerScanner
+	url = https://github.com/vletoux/SpoolerScanner.git
