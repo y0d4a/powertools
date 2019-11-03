@@ -1,7 +1,3 @@
-[submodule "PowerSploit"]
-	path = PowerSploit
-	url = https://github.com/PowerShellMafia/PowerSploit.git
-	branch = dev
 [submodule "recon/MailSniper"]
 	path = recon/MailSniper
 	url = https://github.com/dafthack/MailSniper.git
