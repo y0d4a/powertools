@@ -68,7 +68,7 @@ function ConvertTo-HyperV {
 
     Write-Host "[*] Start converting the VMDK file"
     [string] $destinationLiteralPath = Split-Path -Path $FileName
-    ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath $FileName -VhdType DynamicHardDisk -VhdFormat Vhdx -DestinationLiteralPath $destinationLiteralPath | Out-Null
+    ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath $FileName -VhdType DynamicHardDisk -VhdFormat Vhdx -DestinationLiteralPath $destinationLiteralPath
     Write-Host "[+] File successfully converted to VHDX"
 }
 # SIG # Begin signature block
