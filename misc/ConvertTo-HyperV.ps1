@@ -61,7 +61,7 @@ function ConvertTo-HyperV {
         } catch [System.Exception] {
 
         }
-        Write-Host "[*]"
+        Write-Host "[*] VMDK files merged"
     } else {
         Write-Host "[*] Only one VMDK file found"
     }
