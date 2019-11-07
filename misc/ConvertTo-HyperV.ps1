@@ -56,8 +56,9 @@ function ConvertTo-HyperV {
         }
 
         try {
+            $FileName = "$(Split-Path -Path $FileName)\\Merged$(($FileName -split "\")[-1])"
             $FileName = "Merged$FileName"
-            & "vmWareToolPath" -r $resolvedFilePath -t 0 $FileName
+            & "$vmWareToolPath" -r $resolvedFilePath -t 0 $FileName
         } catch [System.Exception] {
 
         }
